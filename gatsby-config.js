@@ -21,8 +21,14 @@ module.exports = {
       options: {
         // basePath defaults to `/`
         basePath: `/blog`,
-        prismPreset: `duotone-dark`,
+        // prismPreset: `duotone-dark`,
       },
     },
+    {
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        code: "joshc",
+      }
+    }
   ],
 };
