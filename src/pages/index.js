@@ -130,6 +130,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <a href="./blog">Blog</a>
       <h1 style={headingStyles}>
         Congratulations
         <br />
